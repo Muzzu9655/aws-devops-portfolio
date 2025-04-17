@@ -8,7 +8,7 @@ function Navbar() {
         <h1 className="text-2xl font-bold">Muzamil's Portfolio</h1>
         <div className="space-x-4">
           <a href="#home" className="hover:text-yellow-400">Home</a>
-          <a href="#about" className="hover:text-yellow-400">About</a>
+         
           <a href="#skills" className="hover:text-yellow-400">Skills</a>
           <a href="#projects" className="hover:text-yellow-400">Projects</a>
           <a href="#contact" className="hover:text-yellow-400">Contact</a>

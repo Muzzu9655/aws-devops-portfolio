@@ -22,13 +22,18 @@ const certifications = [
 
 function Certifications() {
   return (
-    <section id="certifications" className="py-16 px-4 bg-white text-gray-800">
+    <section id="certifications" className="py-16 px-4 bg-[#f5f7fa] text-gray-800">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-8">Certifications & Training</h2>
+        <h2 className="text-3xl font-bold text-blue-600 mb-8 animate-fade-in-up">
+          Certifications & Training
+        </h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
           {certifications.map((cert, index) => (
-            <li key={index} className="p-4 border rounded-lg shadow-sm bg-gray-50">
-              <h3 className="text-lg font-semibold">{cert.name}</h3>
+            <li
+              key={index}
+              className="p-6 border rounded-lg shadow-md bg-white transform transition duration-500 hover:scale-105 hover:shadow-xl animate-fade-in-up"
+            >
+              <h3 className="text-lg font-semibold text-blue-700">{cert.name}</h3>
               <p className="text-sm text-gray-600">{cert.provider}</p>
             </li>
           ))}
