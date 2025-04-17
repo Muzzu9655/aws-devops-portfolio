@@ -11,9 +11,6 @@ function Contact() {
           Contact
         </h2>
 
-        <p className="mb-4 text-lg animate-fade-in-up">
-          Feel free to reach out for opportunities, collaboration, or just to connect!
-        </p>
 
         <div className="mb-6 animate-fade-in-up">
           <p className="mb-2"><strong>Phone:</strong> +91 9611914083 📞</p>
