@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aws-devops-portfolio/static/css/main.b0b58252.css",
-    "main.js": "/aws-devops-portfolio/static/js/main.556013f6.js",
+    "main.css": "/aws-devops-portfolio/static/css/main.6cd0f0a0.css",
+    "main.js": "/aws-devops-portfolio/static/js/main.a5946de9.js",
     "static/js/453.92b9105b.chunk.js": "/aws-devops-portfolio/static/js/453.92b9105b.chunk.js",
     "index.html": "/aws-devops-portfolio/index.html",
-    "main.b0b58252.css.map": "/aws-devops-portfolio/static/css/main.b0b58252.css.map",
-    "main.556013f6.js.map": "/aws-devops-portfolio/static/js/main.556013f6.js.map",
+    "main.6cd0f0a0.css.map": "/aws-devops-portfolio/static/css/main.6cd0f0a0.css.map",
+    "main.a5946de9.js.map": "/aws-devops-portfolio/static/js/main.a5946de9.js.map",
     "453.92b9105b.chunk.js.map": "/aws-devops-portfolio/static/js/453.92b9105b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0b58252.css",
-    "static/js/main.556013f6.js"
+    "static/css/main.6cd0f0a0.css",
+    "static/js/main.a5946de9.js"
   ]
 }
