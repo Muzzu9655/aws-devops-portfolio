@@ -11,10 +11,7 @@ function Contact() {
           Contact
         </h2>
 
-<<<<<<< HEAD
-=======
         
->>>>>>> 63ce8ba (Updated Contact page layout)
 
         <div className="mb-6 animate-fade-in-up">
           <p className="mb-2"><strong>Phone:</strong> +91 9611914083 📞</p>
