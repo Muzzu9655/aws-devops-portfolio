@@ -46,12 +46,12 @@ function Contact() {
         </div>
 
         <a
-          href={`${process.env.PUBLIC_URL}/Muzamil_kazi_Resume.pdf?updated=true`}
-          download
-          className="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition animate-fade-in-up"
-        >
-          Download Resume (PDF) 📄
-        </a>
+  href="/aws-devops-portfolio/Muzamil_kazi_Resume.pdf"
+  download
+  className="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition animate-fade-in-up"
+>
+  Download Resume (PDF) 📄
+</a>
       </div>
     </section>
   );
