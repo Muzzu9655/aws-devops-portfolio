@@ -6,17 +6,17 @@ function Hero() {
   return (
     <section
       id="home"
-      className="px-6 py-20 bg-[#f7f9fc] text-gray-800 flex flex-col md:flex-row items-center justify-center md:justify-start"
+      className="px-6 py-20 text-gray-800 flex flex-col md:flex-row items-center justify-center md:justify-start"
     >
       {/* Profile & Animated Title */}
-      <div className="flex flex-col items-center md:items-start md:w-[180px] animate-fade-in-left">
+      <div className="flex flex-col items-center md:items-start md:w-[200px] animate-fade-in-left">
         <img
           src={`${process.env.PUBLIC_URL}/profile.jpg`}
           alt="Muzamil Khazi"
-          className="w-32 h-32 md:w-36 md:h-36 rounded-full object-cover border-4 border-white shadow-xl mb-3 transition-transform duration-300 hover:scale-105"
+          className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-white shadow-lg mb-4 transition-transform duration-500 hover:scale-105"
         />
 
-        <h1 className="text-xl md:text-2xl font-extrabold text-yellow-500 text-center md:text-left">
+        <h1 className="text-lg md:text-2xl font-medium text-gray-700 text-center md:text-left mt-3">
           <TypeAnimation
             sequence={[
               'AWS Engineer',
@@ -29,21 +29,25 @@ function Hero() {
             wrapper="span"
             speed={50}
             repeat={Infinity}
+            className="text-gray-700"
           />
         </h1>
       </div>
 
       {/* About Me Section */}
-      <div className="md:w-[60%] md:ml-12 mt-8 md:mt-0 animate-fade-in-up text-left text-gray-700">
-
-        <h2 className="text-2xl md:text-3xl font-bold mb-3">About Me</h2>
-        <p className="text-base leading-relaxed mb-2">
-          I’m <span className="font-semibold text-yellow-500">Muzammil Khazi</span>, an AWS & DevOps Engineer from Bengaluru with a passion for automation, scalability, and cloud-native architecture.
+      <div className="md:w-[60%] md:ml-12 mt-8 md:mt-0 animate-fade-in-up">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-5">
+          About Me
+        </h2>
+        <p className="text-lg md:text-xl leading-relaxed mb-4">
+          Hello, I’m <span className="font-semibold text-teal-500">Muzamil Khazi</span>, a passionate <strong>AWS & DevOps Engineer</strong> based in Bengaluru.
         </p>
-        <p className="text-base leading-relaxed mb-2">
-          I'm certified in <strong className="text-yellow-500">CCNA, CCNP, AWS</strong> and currently enhancing my skills through hands-on training at <strong className="text-yellow-500">Hyper Tech Global Technologies</strong>.
+        <p className="text-lg md:text-xl leading-relaxed mb-4">
+          I’m certified in <span className="text-teal-500">CCNA, CCNP, AWS</span> and currently upskilling through hands-on training at <span className="text-teal-500">Hyper Tech Global Technologies</span>.
         </p>
-       
+        <p className="text-lg md:text-xl leading-relaxed mb-4">
+          I specialize in building scalable cloud architectures, automating deployments, and optimizing DevOps workflows.
+        </p>
       </div>
     </section>
   );
