@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aws-devops-portfolio/static/css/main.4948b181.css",
-    "main.js": "/aws-devops-portfolio/static/js/main.2d5e2d5b.js",
+    "main.css": "/aws-devops-portfolio/static/css/main.ca284f9d.css",
+    "main.js": "/aws-devops-portfolio/static/js/main.df3d6150.js",
     "static/js/453.92b9105b.chunk.js": "/aws-devops-portfolio/static/js/453.92b9105b.chunk.js",
     "index.html": "/aws-devops-portfolio/index.html",
-    "main.4948b181.css.map": "/aws-devops-portfolio/static/css/main.4948b181.css.map",
-    "main.2d5e2d5b.js.map": "/aws-devops-portfolio/static/js/main.2d5e2d5b.js.map",
+    "main.ca284f9d.css.map": "/aws-devops-portfolio/static/css/main.ca284f9d.css.map",
+    "main.df3d6150.js.map": "/aws-devops-portfolio/static/js/main.df3d6150.js.map",
     "453.92b9105b.chunk.js.map": "/aws-devops-portfolio/static/js/453.92b9105b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4948b181.css",
-    "static/js/main.2d5e2d5b.js"
+    "static/css/main.ca284f9d.css",
+    "static/js/main.df3d6150.js"
   ]
 }
