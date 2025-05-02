@@ -14,18 +14,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0f2027; /* Tech-inspired dark blue */
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364); /* Gradient for a more modern look */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(193, 22, 22);
 }
 
+/* Tech Background Color */
+body {
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364); /* Dark techy gradient */
+  color: #7e1a1a;
+}
+
+/* Links */
 .App-link {
-  color: #61dafb;
+  color: #1bb9e5;
 }
 
 @keyframes App-logo-spin {
