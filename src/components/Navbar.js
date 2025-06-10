@@ -8,8 +8,8 @@ function Navbar() {
   return (
     <nav className="bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 shadow-lg fixed w-full top-0 left-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-3xl font-extrabold text-white">
-          Muzamil 🚀
+        <div className="text-2xl font-extrabold text-white">
+          Muzamil's portfolio
         </div>
 
         <div className="hidden md:flex space-x-8 text-lg">
