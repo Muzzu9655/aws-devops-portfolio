@@ -43,17 +43,13 @@ function Contact() {
           </a>
         </div>
  
-        <button
-  onClick={() => {
-    const link = document.createElement('a');
-    link.href = '/Muzamil_kazi_Resume.pdf';
-    link.download = 'Muzamil_kazi_Resume.pdf';
-    link.click();
-  }}
-  className="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition animate-fade-in-up"
+        <a
+  href={`${process.env.PUBLIC_URL}/Muzamil_kazi_resume.pdf`}
+  download
+  className="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition animate-fade-in-up"
 >
-  Download Resume 📄
-</button>
+  Download Resume (PDF) 📄
+</a>
       </div>
     </section>
   );
