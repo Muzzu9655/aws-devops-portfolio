@@ -4,22 +4,14 @@ const certifications = [
   {
     name: 'AWS Cloud Practitioner Essentials',
     provider: 'Amazon Web Services',
-    date: 'May 2024',
   },
   {
     name: 'CCNA (Cisco Certified Network Associate)',
     provider: 'Cisco',
-    date: 'March 2024',
   },
   {
     name: 'CCNP (Cisco Certified Network Professional)',
     provider: 'Cisco',
-    date: 'April 2024',
-  },
-  {
-    name: 'ITIL Foundation',
-    provider: 'AXELOS',
-    date: 'February 2024',
   },
 ];
 
