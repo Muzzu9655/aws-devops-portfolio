@@ -40,9 +40,6 @@ function Certifications() {
               <p className="text-gray-300">
                 <span className="font-medium text-white">Issued by:</span> {cert.provider}
               </p>
-              <p className="text-gray-400">
-                <span className="font-medium text-white">Date:</span> {cert.date}
-              </p>
             </div>
           ))}
         </div>
