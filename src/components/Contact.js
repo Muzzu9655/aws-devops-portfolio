@@ -45,7 +45,7 @@ function Contact() {
 
         <a
   href="/Muzamil_kazi_Resume.pdf"
-  download
+  download="Muzamil_kazi_Resume.pdf"
   className="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition animate-fade-in-up"
 >
   Download Resume (PDF) 📄
