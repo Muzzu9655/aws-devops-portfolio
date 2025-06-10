@@ -42,15 +42,18 @@ function Contact() {
             GitHub 🐱
           </a>
         </div>
- <a
-  href="/Muzamil_kazi_Resume.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition animate-fade-in-up"
+ 
+        <button
+  onClick={() => {
+    const link = document.createElement('a');
+    link.href = '/Muzamil_kazi_Resume.pdf';
+    link.download = 'Muzamil_kazi_Resume.pdf';
+    link.click();
+  }}
+  className="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition animate-fade-in-up"
 >
-  View Resume (PDF) 📄
-</a>
-        
+  Download Resume 📄
+</button>
       </div>
     </section>
   );
