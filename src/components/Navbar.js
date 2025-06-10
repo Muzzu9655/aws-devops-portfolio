@@ -6,7 +6,7 @@ function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shadow-lg fixed w-full top-0 left-0 z-50">
+    <nav className="bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 shadow-lg fixed w-full top-0 left-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-3xl font-extrabold text-white">
           Muzamil 🚀
@@ -37,7 +37,7 @@ function Navbar() {
 
       {/* Mobile menu items */}
       {isOpen && (
-        <div className="md:hidden px-4 pt-2 pb-4 space-y-4 bg-gradient-to-b from-blue-500 via-purple-500 to-pink-500">
+        <div className="md:hidden px-4 pt-2 pb-4 space-y-4 bg-gradient-to-b from-gray-800 via-gray-900 to-gray-800">
           <a href="#home" className="block text-white hover:text-yellow-300 text-lg transition duration-300">Home</a>
           <a href="#about" className="block text-white hover:text-yellow-300 text-lg transition duration-300">About</a>
           <a href="#projects" className="block text-white hover:text-yellow-300 text-lg transition duration-300">Projects</a>
