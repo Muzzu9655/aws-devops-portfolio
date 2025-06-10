@@ -42,9 +42,9 @@ function Contact() {
             GitHub 🐱
           </a>
         </div>
-<a
-  href={`${process.env.PUBLIC_URL}/Muzamil_kazi_Resume.pdf`}
-  download
+ <a
+  href="/Muzamil_kazi_Resume.pdf"
+  download="Muzamil_kazi_Resume.pdf"
   className="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition animate-fade-in-up"
 >
   Download Resume (PDF) 📄
